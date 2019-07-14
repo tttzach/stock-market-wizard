@@ -12,7 +12,7 @@ const router = express.Router();
 
 // this is our MongoDB database
 const dbRoute =
-  'mongodb+srv://tttzach:I3FYbNI75K9TRvxT@cluster0-ppash.mongodb.net/test?retryWrites=true&w=majority';
+  'mongodb+srv://tttzach:[pass]@cluster0-ppash.mongodb.net/test?retryWrites=true&w=majority';
 
 // connects our back end code with the database
 mongoose.connect(dbRoute, { useNewUrlParser: true });
